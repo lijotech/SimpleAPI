@@ -15,7 +15,7 @@ namespace SimpleAPI.Tests
             var someService = new WeatherForecastController(mockLogger.Object);
 
             var returnValue=someService.Fetch(1);
-            Assert.Equal("Lijo Sebastian",returnValue.Value);
+            Assert.Equal("Lijo Sebastian1",returnValue.Value);
         }
 
         [Fact]
