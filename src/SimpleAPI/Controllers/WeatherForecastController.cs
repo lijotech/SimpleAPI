@@ -39,7 +39,7 @@ namespace SimpleAPI.Controllers
         [HttpGet ("{id}")]
         public ActionResult<string> Fetch(int id) 
         {
-            return "Lijo Sebastian";
+            return "Lijo Sebastian,Lino Sebastian";
         }   
     }
 }
